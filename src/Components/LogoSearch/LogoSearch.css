@@ -1,0 +1,45 @@
+.LogoSearch{
+   display: flex;
+   gap: 0.75rem
+}
+
+.LogoSearch>img{
+    height: 50px;
+    width: 50px;
+    opacity: 0.3;
+    align-items: center;
+    
+}
+.Search>input{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    Background-color: var(--GREY);
+    padding: 5px;
+   
+
+}
+.s-icon{
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background: var(--MAROON);
+    border-radius: 5PX  ;
+    
+}
+.s-icon:hover{
+    cursor: pointer  ;
+}
+
+.s-icon>img{
+    width: 30px;
+    height: 30px;
+}
